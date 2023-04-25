@@ -1,0 +1,15 @@
+@keyframes animacion-logo{
+    0% {transform:translate(50px, -50px)}
+    20% {transform:scale(2,2)}
+    40% {transform:trotate(360deg)}
+    60% {transform:scale(1,1)}
+    80% {transform:slew(50deg,30deg)}
+    100% {transform:translate(0,0)}
+}
+div.logo{
+    animation-name: animacion-logo;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+    
